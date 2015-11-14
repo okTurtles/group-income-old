@@ -19,6 +19,10 @@ truffle serve
 
 etc.
 
+##### Troubleshooting
+
+If you run into problems with `solc`, [try this](https://github.com/ConsenSys/truffle/issues/53#issuecomment-156579612).
+
 ### Dev Instructions For Deployment
 
 [tbd.]
