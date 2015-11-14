@@ -22,3 +22,7 @@ etc.
 ### Dev Instructions For Deployment
 
 [tbd.]
+
+## License TBD, for now GPL v2.0
+
+http://choosealicense.com/licenses/gpl-2.0/
