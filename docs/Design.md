@@ -4,7 +4,11 @@
 
 Members can set limits to the amount that they are willing to shoulder the burden (in addition to the fairness check between monetizers).
 
+**The contributor limit does not apply to members making less than the bucket amount.**
+
 How the contribution limit relates to bucket sizes and the fairness check still remains to be sketched out.
+
+TBD: If someone is making a lot and *could* help fill a lot of buckets but chooses not to, then perhaps *their own* bucket should be smaller in size (i.e. they're not helping the group much, so the group shouldn't be helping them much, especially since they don't need the help as much as some of the other members).
 
 ## Fairness Check Between Monetizers
 
@@ -27,3 +31,9 @@ The idea is that everyone is providing a bucket's worth of value to the group, r
 But what happens when the market decides to send them tokens? In other words, what happens when the former non-monetizer starts to monetize their value?
 
 The fairness check only operates between monetizers at the time they are monetizers. The non-monetizer *was* providing their bucket's worth of value to the group (or society) and so does not share the burden that previous monetizers were sharing between themselves. However, once they enter the monetizing set, then from *that point on* the fairness check starts to operate between them and the other monetizers.
+
+## "Windfall Problem"
+
+When a member receives a large amount all of a sudden (based on historical data), then the app can notify them and let them decide what to do, while showing the impact that their decision would have on the group.
+
+To-be-fleshed out in more detail.
