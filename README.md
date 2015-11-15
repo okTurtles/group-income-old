@@ -4,6 +4,10 @@ A token-less version of [Group Currency](http://groupcurrency.org).
 
 More info about this project will be posted to http://groupincome.org
 
+### CONTRIBUTING TO THIS REPO
+
+**Every individual should work in their own branch and send PRs to master!**
+
 ### Dev Instructions For Development
 
 1. Install [Truffle](https://github.com/ConsenSys/truffle)

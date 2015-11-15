@@ -8,7 +8,7 @@ How the contribution limit relates to bucket sizes and the fairness check still 
 
 ## Fairness Check Between Monetizers
 
-The Fairness Check is a necessary measure to ensure that Group Income works and that people are willing to participate in the system. It exists because unfairness would otherwise naturally be created by the system simply based on when people receive paychecks. In otherwords, without the fairness check, two monetizers make equal amounts per month would be sharing the monetary burden of the group unequally if they received payment at different times.
+The Fairness Check is a necessary measure to ensure that Group Income works and that people are willing to participate in the system. It exists because unfairness would otherwise naturally be created by the system simply based on when people receive paychecks. In otherwords, without the fairness check, two monetizers that make equal amounts per month would be sharing the monetary burden of the group unequally if they received payment at different times.
 
 The algorithm automatically keeps track of sets of monetizers by tracking historical income.
 
