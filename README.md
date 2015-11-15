@@ -6,7 +6,8 @@ More info about this project will be posted to http://groupincome.org
 
 ### CONTRIBUTING TO THIS REPO
 
-**Every individual should work in their own branch and send PRs to master!**
+1. **Every individual should work in their own branch and send PRs to master!**
+2. **BEFORE you send a PR, make sure you are up-to-date with `master`. If you're not, `rebase` on top of it!**
 
 ### Dev Instructions For Development
 
