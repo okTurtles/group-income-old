@@ -31,8 +31,8 @@ contract('GroupIncome', function(accounts) {
           return groupIncome.members.call(addr);
         })
         .then(function(member) {
-          assert.equal(member[0], addr, "Creator should be in members.");
-          assert.equal(member[1], name, "Creator should be in members.");
+          assert.equal(member[0], addr, "New user should be in members");
+          assert.equal(member[1], name, "New user should be in members.");
           assert.equal(member[2], 0, "You start with $0");
           done();
       }).catch(done);
