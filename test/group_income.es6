@@ -32,4 +32,37 @@ contract('GroupIncome', function(accounts) {
     assert.equal(member[1], name, "New user should be in members.");
     assert.equal(member[2], 0, "You start with $0");
   });
+
+  it("payMember should increase amountReceivedThisPeriod", async function() {
+    var groupIncome = await GroupIncome.new(1000);
+    await groupIncome.payMember(accounts[0], 50);
+    var member = await groupIncome.members(accounts[0]);
+
+    assert.equal(member[2], 50, "Should be paid 50");
+  });
+
+  it("income should distribute correctly", async function() {
+    var groupIncome = await GroupIncome.new(1000);
+    var memberAddrs = [
+      '0x82a978b3f5912a5b0957d9ee9eef472ee55b42f1',
+      '0x82a978b3f5922a5b0957d9ee9eef472ee55b42f1',
+      '0x82a978b3f5932a5b0957d9ee9eef472ee55b42f1'
+    ];
+    for (var i = 0; i < memberAddrs.length; i++) {
+      var addr = memberAddrs[i];
+      // Create members. Their names are addresses cuz whatever.
+      await groupIncome.addMember(addr, addr);
+    }
+
+    await groupIncome.receiveIncome( { from: accounts[0], value: 3000 } );
+
+    var incomeGenerator = await groupIncome.members(accounts[0]);
+    assert.equal(incomeGenerator[2], 1000, "Should fill iG's bucket");
+
+    for (var i = 0; i < memberAddrs.length; i++) {
+      var addr = memberAddrs[i];
+      var member = await groupIncome.members(addr);
+      assert.equal(member[2], 1000, "Should be paid 1000");
+    }
+  });
 });
