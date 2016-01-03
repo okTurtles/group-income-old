@@ -26,7 +26,7 @@ In the analogy of the oxen drawn carriage, the $20k/year monetizer is a smaller 
 
 #### Monetizers Sets, Or What To Do When A Non-Monetizer Becomes A Monetizer
 
-The idea is that everyone is providing a bucket's worth of value to the group, regardless of whether or not they are able to monetize that value. In other words, a housekeeper or a stay-at-home mother is providing real value that "the market" simply does not choose to monetize. They are, in other words, "paying back" their bucket's worth of value every month, regardless of how much they actually receive in tokens from the market.
+The idea is that, on average, everyone is providing a bucket's worth of value to the group (probably more), regardless of whether or not they are able to monetize that value. In other words, a housekeeper or a stay-at-home mother is providing real value that "the market" simply does not choose to monetize. They are, in other words, "paying back" their bucket's worth of value every month, regardless of how much they actually receive in tokens from the market.
 
 But what happens when the market decides to send them tokens? In other words, what happens when the former non-monetizer starts to monetize their value?
 
