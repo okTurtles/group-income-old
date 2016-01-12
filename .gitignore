@@ -1,1 +1,2 @@
-build/
+environments/*/build
+environments/*/contracts
