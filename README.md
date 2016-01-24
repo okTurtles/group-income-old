@@ -1,5 +1,7 @@
 # Group Income
 
+[![Join the chat at https://gitter.im/okTurtles/group-income](https://badges.gitter.im/okTurtles/group-income.svg)](https://gitter.im/okTurtles/group-income?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A token-less version of [Group Currency](http://groupcurrency.org).
 
 More info about this project will be posted to http://groupincome.org
