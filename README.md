@@ -6,6 +6,16 @@ A token-less version of [Group Currency](http://groupcurrency.org).
 
 More info about this project will be posted to http://groupincome.org
 
+### Group Income (Simple)
+
+Our current focus is on **Group Income (Simple Edition)**
+
+- :point_right: **https://github.com/okTurtles/group-income-simple**
+
+The results of that work will be incorporated into this project.
+
+-----
+
 ### CONTRIBUTING TO THIS REPO
 
 1. **Every individual should work in their own branch and send PRs to master!**
